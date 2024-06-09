@@ -1,0 +1,29 @@
+package com.qa.opencart.pages;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import com.qa.opencart.utils.ElementUtil;
+
+public class OrderPage {
+	// 1
+	private WebDriver driver;
+	private ElementUtil eleUtil;
+	
+	//locators
+	private By loc = By.id("username");
+	private By price = By.id("otp");
+	
+	public OrderPage(WebDriver driver){
+			this.driver = driver;
+			eleUtil = new ElementUtil(driver);
+	}
+	
+	public void getUsername() {
+		System.out.println("Order plz");
+	}
+	
+	public void getOTP() {
+		System.out.println("Price plz");
+	}
+
+}
