@@ -31,7 +31,7 @@ public class DriverFactory {
 		} else if (browserName.equalsIgnoreCase("edge")) {
 			driver = new EdgeDriver();
 		} else {
-			System.out.println("Please pass the correct browser name .... " + browserName);
+			System.out.println("Please pass the correct browser name ...... " + browserName);
 		}
 
 		driver.manage().deleteAllCookies();
