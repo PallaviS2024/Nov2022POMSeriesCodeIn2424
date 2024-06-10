@@ -8,7 +8,9 @@ import com.qa.opencart.utils.ElementUtil;
 public class Mail{
 	
 	public void getSendersList() {
+
 		System.out.println("From Pallavi Eclipse Workspace get Senders List please!!!");
+		System.out.println("From Pallavi Eclipse Workspace Code is comleted");
 	}
 	
 	 public void getEmailBody() {
@@ -16,3 +18,5 @@ public class Mail{
 	 }
 
 }
+
+
